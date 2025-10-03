@@ -1,6 +1,2 @@
 language = "nodejs"
 run = "npm start"
-modules = ["nodejs-20"]
-
-[nix]
-channel = "stable-25_05"

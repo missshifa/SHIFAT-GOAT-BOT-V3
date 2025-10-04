@@ -157,9 +157,9 @@ Please do not disturb the admin unless you have a special need. Thank you!
 - 😜 **𝐌𝐃 𝐒𝐇𝐈𝐅𝐀𝐓 (𝐒𝐇𝐈𝐅𝐀𝐓 𝐆𝐎𝐀𝐓 𝐕3)**
 ---
 
-💖 **Thank You For Choosing 𝗔𝗹𝘃𝗶 𝗕𝗼𝘁 𝗖𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆!**  
+💖 **𝗧𝗵𝗮𝗻𝗸 𝗬𝗼𝘂 𝗙𝗼𝗿 𝗖𝗵𝗼𝗼𝘀𝗶𝗻𝗴 𝗦𝗵𝗶𝗳𝗮𝘁 𝗚𝗼𝗮𝘁 𝗕𝗼𝘁!**  
 🗓️ *Release Date:* `03/10/2025 at 12:00`  
-⭐ **Please don't forget to give a star after forking! It really helps!**
+⭐ **𝐏𝐥𝐞𝐚𝐬𝐞 𝐝𝐨𝐧'𝐭 𝐟𝐨𝐫𝐠𝐞𝐭 𝐭𝐨 𝐠𝐢𝐯𝐞 𝐚 𝐬𝐭𝐚𝐫 𝐚𝐟𝐭𝐞𝐫 𝐟𝐨𝐫𝐤𝐢𝐧𝐠! 𝐈𝐭 𝐫𝐞𝐚𝐥𝐥𝐲 𝐡𝐞𝐥𝐩𝐬!**
 
 ---
 
@@ -175,4 +175,4 @@ Please do not disturb the admin unless you have a special need. Thank you!
   <a href="https://youtube.com/@SAUniqueBro"><img src="https://img.icons8.com/color/48/000000/youtube-play.png" alt="YouTube"></a>
 </p>
 
-**I hope you enjoy my fork! Thank you for supporting the cyber chat bot community!**
+**𝐈 𝐡𝐨𝐩𝐞 𝐲𝐨𝐮 𝐞𝐧𝐣𝐨𝐲 𝐦𝐲 𝐟𝐨𝐫𝐤! 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐬𝐮𝐩𝐩𝐨𝐫𝐭𝐢𝐧𝐠 𝐭𝐡𝐞 𝐬𝐡𝐢𝐟𝐚𝐭 𝐠𝐨𝐚𝐭 𝐜𝐡𝐚𝐭 𝐛𝐨𝐭 𝐜𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲!**

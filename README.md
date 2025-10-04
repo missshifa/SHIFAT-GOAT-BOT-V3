@@ -1,308 +1,176 @@
-<img src="https://i.ibb.co/RQ28H2p/banner.png" alt="banner">
-<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> Goat Bot - Bot Chat Messenger</h1>
+---------
 
-<p align="center">
-	<a href="https://nodejs.org/dist/v16.20.0">
-		<img src="https://img.shields.io/badge/Nodejs%20Support-16.x-brightgreen.svg?style=flat-square" alt="Nodejs Support v16.x">
-	</a>
-  <img alt="size" src="https://img.shields.io/github/repo-size/ntkhang03/Goat-Bot-V2.svg?style=flat-square&label=size">
-  <img alt="code-version" src="https://img.shields.io/badge/dynamic/json?color=brightgreen&label=code%20version&prefix=v&query=%24.version&url=https://github.com/ntkhang03/Goat-Bot-V2/raw/main/package.json&style=flat-square">
-  <img alt="visitors" src="https://visitor-badge.laobi.icu/badge?style=flat-square&page_id=ntkhang3.Goat-Bot-V2">
-  <img alt="size" src="https://img.shields.io/badge/license-MIT-green?style=flat-square&color=brightgreen">
+### ✦ ⚡✨ 𝐒𝐇𝐈𝐅𝐀𝐓 𝐆𝐎𝐀𝐓 𝐁𝐎𝐓 𝐕3 ✨⚡ ✦
+
+❖ **`A Messenger Multi Device Bot To Take Your Messenger To Another Level!`** 
+
+
+
+Assalamualaikum Everyone!  
+**𝐖𝐄𝐋𝐂𝐎𝐌 𝐓𝐎 𝐌𝐘 𝐒𝐇𝐈𝐅𝐀𝐓 𝐆𝐎𝐀𝐓 𝐁𝐎𝐓 𝐕3 𝐅𝐎𝐑𝐊**
+
+![Box-shaped Image](https://i.imgur.com/yhHIP5v.jpeg)
+
+<p align="center" style="animation: glow 2s infinite alternate; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+  <span style="font-size: 24px; font-weight: bold;">𝐒𝐇𝐈𝐅𝐀𝐓 𝐆𝐎𝐀𝐓 𝐁𝐎𝐓</span><br>
+  <span> Develop By MD SHIFAT</span>
 </p>
 
-- [📝 **Note**](#-note)
-- [🚧 **Requirement**](#-requirement)
-- [📝 **Tutorial**](#-tutorial)
-- [💡 **How it works?**](#-how-it-works)
-- [🔔 **How to get notification when have new update?**](#-how-to-get-notification-when-have-new-update)
-- [🆙 **How to Update**](#-how-to-update)
-- [🛠️ **How to create new commands**](#️-how-to-create-new-commands)
-- [💭 **Support**](#-support)
-- [📚 **Support Languages in source code**](#-support-languages-in-source-code)
-- [📌 **Common Problems**](#-common-problems)
-- [❌ **DO NOT USE THE ORIGINAL UNDERGRADUATE VERSION**](#-do-not-use-the-original-undergraduate-version)
-- [📸 **Screenshots**](#-screenshots)
-- [✨ **Copyright (C)**](#-copyright-c)
-- [📜 **License**](#-license)
+-------
 
-<hr>
+ <p align="center">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=cyan&center=true&vCenter=true&multiline=false&lines=`𝐒𝐇𝐈𝐅𝐀𝐓+𝐆𝐎𝐀𝐓+𝐁𝐎𝐓+𝐕3`" alt="">
 
-## 📝 **Note**
-- This is a messenger chat bot using a personal account, using an [unofficial api](https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md) ([Origin here](https://github.com/Schmavery/facebook-chat-api)) and this may lead to facebook account being locked due to spam or other reasons. 
-- So, I recommend using a clone account (one that you're willing to throw away at any time)
-- ***I am not responsible for any problems that may arise from using this bot.***
+<br>
 
-## 🚧 **Requirement**
-- Node.js 16.x [Download](https://nodejs.org/dist/v16.20.0) | [Home](https://nodejs.org/en/download/) | [Other versions](https://nodejs.org/en/download/releases/)
-- Knowledge of **programming**, javascript, nodejs, unofficial facebook api
+--------
 
-## 📝 **Tutorial**
-Tutorial has been uploaded on YouTube
-- For mobile phone: https://www.youtube.com/watch?v=grVeZ76HlgA
-- For vps/windows: https://www.youtube.com/watch?v=uCbSYNQNEwY
+_______
+### <br>   ❖ DEPLOY_WORKFLOWS ❖
+```
+name: Node.js CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [20.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+    # Step to check out the repository code
+    - uses: actions/checkout@v2
+
+    # Step to set up the specified Node.js version
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    # Step to install dependencies
+    - name: Install dependencies
+      run: npm install
+
+    # Step to run the bot with the correct port
+    - name: Start the bot
+      env:
+        PORT: 8080
+      run: npm start
+```
+
+______✨⚡
+
+ <p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=KAKASHI-V5&show_icons=true&theme=radical" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=KAKASHI-V5&theme=radical" alt="GitHub Streak" />
+</p> 
+
+
+_______⚡✨🫡
+
+## 🔥 Features  
+
+**• Auto Chat**  
+Enjoy automatic and seamless conversations through natural language processing.  
+
+**• Photo Editing**  
+Edit professional quality photos using our advanced commands, no additional apps needed.  
+
+**• Image Generation**  
+Create unique images using our cutting-edge text-to-image technology.  
+
+**• Video Downloader**  
+Download HD videos from YouTube, Facebook, TikTok and other platforms.  
+
+**• Interactive Games**  
+Play 20+ fun games directly in messenger, no installation hassle!  
+
+**• Fun Commands**  
+Surprise your friends with hundreds of fun commands!  
+___
+
+
+---
+
+
+
+
+## 👨‍💻 **ABOUT THE DEVELOPER**  
   
-Summary instructions:
-- See [here](https://github.com/ntkhang03/Goat-Bot-V2/blob/main/STEP_INSTALL.md)
+**Name:** **`𝐌𝐃 𝐒𝐇𝐈𝐅𝐀𝐓`**  
+**Nice Name:** **`𝐒𝐈𝐅𝐔`**  
+**Profession:** **`𝐃𝐈𝐆𝐈𝐓𝐀𝐋 𝐌𝐀𝐑𝐊𝐄𝐓𝐈𝐍𝐆 & 𝐂𝐇𝐀𝐓 𝐁𝐎𝐓 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑`**  
+**Location:** **`𝐊𝐇𝐔𝐋𝐍𝐀 <> 𝐁𝐀𝐍𝐆𝐋𝐀𝐃𝐄𝐒𝐇`**  
+
+### 📞 **CONTACT INFORMATION**  
+- **WhatsApp:** **[WHATSAPP ID](https://wa.me/+8801964467614)**  
+- **Facebook:** **[Facebook ID](https://facebook.com/100078859776449)**  
+- **Messenger:** **[Message Me](https://m.me/100078859776449)**
+
+- 
+
+### 🚀 **DEVELOPMENT APPROACH**  
+- 💻 **Copy-paste techniques with customizations**  
+- 🤝 **Collaborative development with friends**  
+- 🤖 **AI-powered using ChatGPT and other advanced tools**  
 
 
 
-## 💡 **How it works?**
-- The bot uses the unofficial facebook api to send and receive messages from the user.
-- When having a `new event` (message, reaction, new user join, user leave chat box,...) the bot will emit an event to the `handlerEvents`.
-- The `handlerEvents` will handle the event and execute the command:
-  - `onStart`:
-    - the handler will check if user `call a command or not`.
-    - if yes, it will check if `user banned` or mode `admin box only is turned on` or not, if not, it will execute the command.
-    - next, it will check the `permission` of the user.
-    - next, it will check if the `countdown` of command is over or not.
-    - finally, it will execute the command and `log` information to the console.
 
-  - `onChat`:
-    - the handler will run `when the user sends a message`.
-    - it will check `permission` of the user.
-    - the handler will `execute` the command, if it return a `function` or `async function` then it willl check `user banned` or mode `admin box only is turned on` or not, if not, it will call the function and `log` information to the console.
-
-  - `onFirstChat`:
-    - the handler will run `when get the first message` from the chat box since the bot started.
-    - the way it works is like `onChat`.
-
-  - `onReaction`:
-    - the handler will run when the user `reacts` to a `message has messageID` is set in `GoatBot.onReaction` as follows:
-		```javascript
-		// example:	
-		global.GoatBot.onReaction.set(msg.messageID, {
-			messageID: msg.messageID,
-			commandName,
-			// ... and more
-		});
-		```
-    - the handler will automatically add method `delete`, if this method is called, it will delete the message from the set.
-    - next, it will check `permission` of the user and `execute` if the user has permission and `log` information to the console.
-
-  - `onReply`:
-    - the handler will run when the user `replies` to a `message has messageID` is set in `GoatBot.onReply` as follows:
-		```javascript
-		// example:
-		global.GoatBot.onReply.set(msg.messageID, {
-			messageID: msg.messageID,
-			commandName,
-			// ... and more
-		});
-		```
-    - the handler will automatically add method `delete`, if this method is called, it will delete the message from the set.
-    - next, it will check `permission` of the user and `execute` if the user has permission and `log` information to the console.  
-
-  - `onEvent`:
-    - the handler will run `when the user has a new event` type `event` (new user join, user leave chat box, change admin box,...)
-		```javascript
-		// example:
-		global.GoatBot.onEvent.set(msg.messageID, {
-			messageID: msg.messageID,
-			commandName,
-			// ... and more
-		});
-		```
-		- it will loop through all `onEvent` and get the command determined by the key `commandName` and execute the `onEvent` in that command.
-		- if it return a `function` or `async function` then it will call the function and `log` information to the console.
-
-  - `handlerEvent`:
-    - the handler will run `when the user has a new event` type `event` (new user join, user leave chat box, change admin box,...)
-    - it will get all the eventCommand set in `GoatBot.eventCommands` (scripts placed in the `scripts/events` folder)
-    - it will loop through all `eventCommands` and run the `onStart` in that command.
-    - if it return a `function` or `async function` then it will call the function and `log` information to the console.
-
-
-## 🔔 **How to get notification when have new update?**
-- Click on the `Watch` button in the upper right corner of the screen and select `Custom` and select `Pull requests` and `Releases` and click `Apply` to get notified when there is a new update.
-
-## 🆙 **How to Update**
-Tutorial has been uploaded on YouTube
-- on phone/repl: https://youtu.be/grVeZ76HlgA?t=1342
-- on vps/computer: https://youtu.be/uCbSYNQNEwY?t=508
-
-## 🛠️ **How to create new commands**
-- See [here](https://github.com/ntkhang03/Goat-Bot-V2/blob/main/DOCS.md)
-
-## 💭 **Support**
-If you have major coding issues with this bot, please join and ask for help.
-- https://discord.com/invite/DbyGwmkpVY (recommended)
-- https://www.facebook.com/groups/goatbot
-- https://m.me/j/Abbq0B-nmkGJUl2C
-- ~~https://t.me/gatbottt~~ (no longer supported)
-- ***Please do not inbox me, I do not respond to private messages, any questions please join the chat group for answers. ThankThanks!***
-
-## 📚 **Support Languages in source code**
-- Currently, the bot supports 2 languages:
-- [x] `en: English`
-- [x] `vi: Vietnamese`
-
-- Change language in `config.json` file
-- You can customize the language in the folder `languages/`, `languages/cmds/` and `languages/events/`
-
-## 📌 **Common Problems**
-<details>
-	<summary>
-		📌 Error 400: redirect_uri_mismatch
-	</summary>
-	<p><img src="https://i.ibb.co/6Fbjd4r/image.png" width="250px"></p> 
-	<p>1. Enable Google Drive API: <a href="https://youtu.be/nTIT8OQeRnY?t=347">Tutorial</a></p>
-	<p>2. Add uri <a href="https://developers.google.com/oauthplayground">https://developers.google.com/oauthplayground</a> (not <a href="https://developers.google.com/oauthplayground/">https://developers.google.com/oauthplayground/</a>) to <b>Authorized redirect URIs</b> in <b>OAuth consent screen:</b> <a href="https://youtu.be/nTIT8OQeRnY?t=491">Tutorial</a></p>  
-	<p>3. Choose <b>https://www.googleapis.com/auth/drive</b> and <b>https://mail.google.com/</b> in <b>OAuth 2.0 Playground</b>: <a href="https://youtu.be/nTIT8OQeRnY?t=600">Tutorial</a></p>
-</details>
-
-<details>
-	<summary>
-		📌 Error for site owners: Invalid domain for site key
-	</summary>
-		<p><img src="https://i.ibb.co/2gZttY7/image.png" width="250px"></p>
-		<p>1. Go to <a href="https://www.google.com/recaptcha/admin">https://www.google.com/recaptcha/admin</a></p>
-		<p>2. Add domain <b>repl.co</b> (not <b>repl.com</b>) to <b>Domains</b> in <b>reCAPTCHA v2</b> <a href="https://youtu.be/nTIT8OQeRnY?t=698">Tutorial</a></p>
-</details>
-
-<details>
-	<summary>
-		📌 GaxiosError: invalid_grant, unauthorized_client 
-	</summary>
-		<p><img src="https://i.ibb.co/n7w9TkH/image.png" width="250px"></p>
-		<p><img src="https://i.ibb.co/XFKKY9c/image.png" width="250px"></p>
-		<p><img src="https://i.ibb.co/f4mc5Dp/image.png" width="250px"></p>
-		<p>- If you don't publish the project in google console, the refresh token will expire after 1 week and you need to get it back. <a href="https://youtu.be/nTIT8OQeRnY?t=445">Tuatorial</a></p>
-</details>
-
-<details>
-	<summary>
-		📌 GaxiosError: invalid_client
-	</summary>
-		<p><img src="https://i.ibb.co/st3W6v4/Pics-Art-01-01-09-10-49.jpg" width="250px"></p>
-		<p>- Check if you have entered your google project client_id correctly <a href="https://youtu.be/nTIT8OQeRnY?t=509">Tuatorial</a></p>
-</details>
-
-<details>
-	<summary>
-		📌 Error 403: access_denied
-	</summary>
-		<p><img src="https://i.ibb.co/dtrw5x3/image.png" width="250px"></p>
-		<p>- If you don't publish the project in google console only the approved accounts added to the project can use it <a href="https://youtu.be/nTIT8OQeRnY?t=438">Tuatorial</a></p>
-</details>
-
-## ❌ **DO NOT USE THE ORIGINAL UNDERGRADUATE VERSION**
-- The use of unknown source code can lead to the device being infected with viruses, malware, hacked social accounts, banks, ...
-- Goat-Bot-V2 is only published at https://github.com/ntkhang03/Goat-Bot-V2, all other sources, all forks from other github, replit,... are fake, violate policy
-- If you use from other sources (whether accidentally or intentionally) it means that you are in violation and will be banned without notice
-## 📸 **Screenshots**
-- ### Bot
-<details>
-	<summary>
- 		Rank system
-	</summary>
-
-  - Rank card:
-  <p><img src="https://i.ibb.co/d0JDJxF/rank.png" width="399px"></p>
-
-  - Rankup notification:
-  <p><img src="https://i.ibb.co/WgZzthH/rankup.png" width="399px"></p>
-
-  - Custom rank card:
-  <p><img src="https://i.ibb.co/hLTThLW/customrankcard.png" width="399px"></p>
-</details>
-
-<details>
-	<summary>
- 		Weather
-	</summary>
-	<p><img src="https://i.ibb.co/2FwWVLv/weather.png" width="399px"></p>
-</details>
-
-<details>
-	<summary>
- 		Auto send notification when have user join or leave box chat (you can custom message)
-	</summary>
-	<p><img src="https://i.ibb.co/Jsb5Jxf/wcgb.png" width="399px"></p>
-</details>
-
-<details>
-	<summary>
- 		Openjourney
-	</summary>
-	<p><img src="https://i.ibb.co/XJfwj1X/Screenshot-2023-05-09-22-43-58-630-com-facebook-orca.jpg" width="399px"></p>
-</details>
-
-<details>
-	<summary>
- 		GPT
-	</summary>
-	<p><img src="https://i.ibb.co/D4wRbM3/Screenshot-2023-05-09-22-47-48-037-com-facebook-orca.jpg" width="399px"></p>
-	<p><img src="https://i.ibb.co/z8HqPkH/Screenshot-2023-05-09-22-47-53-737-com-facebook-orca.jpg" width="399px"></p>
-	<p><img src="https://i.ibb.co/19mZQpR/Screenshot-2023-05-09-22-48-02-516-com-facebook-orca.jpg" width="399px"></p>
-</details>
+---
 
 
 
-- ### Dashboard
-<details>
-	<summary>
- 		Home:
-	</summary>
-	<p><img src="https://i.postimg.cc/GtwP4Cqm/Screenshot-2023-12-23-105357.png" width="399px"></p>
-	<p><img src="https://i.postimg.cc/MTjbZT0L/Screenshot-2023-12-23-105554.png" width="399px"></p>
-</details>
 
-<details>
-	<summary>
- 		Stats:
-	</summary>
-	<p><img src="https://i.postimg.cc/QtXt98B7/image.png" width="399px"></p>
-</details>
 
-<details>
-	<summary>
- 		Login/Register:
-	</summary>
-	<p><img src="https://i.postimg.cc/Jh05gKsM/Screenshot-2023-12-23-105743.png" width="399px"></p>
-	<p><img src="https://i.postimg.cc/j5nM9K8m/Screenshot-2023-12-23-105748.png" width="399px"></p>
-</details>
+## ❖ SUPPORT  
+If you need any help, you can contact the admin.
+Please do not disturb the admin unless you have a special need. Thank you! 
 
-<details>
-	<summary>
- 		Dashboard Thread:
-	</summary>
-	<p><img src="https://i.postimg.cc/RF237v1Z/Screenshot-2023-12-23-105913.png" width="399px"></p>
-</details>
+<p align="center">
+  <a href="https://wa.me/+8801964467614?text=AssalamuAlaikum%20Admin%20ALVI%20ISLAM%20Need%20Help%20Please%20Brother%20🫶">
+    <img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
+  </a>
+  <a href="https://m.me/100078859776449">
+    <img alt="Messenger" src="https://img.shields.io/badge/Messenger-00B2FF?style=for-the-badge&logo=messenger&logoColor=white">
+  </a>
+</p>
 
-<details>
-	<summary>
- 		Custom on/off:
-	</summary>
-	<p><img src="https://i.ibb.co/McDRhmX/image.png" width="399px"></p>
-</details>
+---
 
-<details>
-	<summary>
- 		Custom welcome message (similar with leave, rankup (coming soon), custom command (coming soon))
-	</summary>
-	<p><img src="https://i.ibb.co/6ZrQqc1/image.png" width="399px"></p>
-	<p><img src="https://i.ibb.co/G53JsXm/image.png" width="399px"></p>
-</details>
+## ✨ Special Thanks ✨
 
-## ✨ **Copyright (C)**
-- **[NTKhang (NTKhang03)](https://github.com/ntkhang03)**
+- 😁 ** 𝐍𝐓𝐊 𝐁𝐎𝐓 𝐌𝐀𝐈𝐍 𝐎𝐖𝐍𝐄𝐑**  
+- 😜 **𝐌𝐃 𝐒𝐇𝐈𝐅𝐀𝐓 (𝐒𝐇𝐈𝐅𝐀𝐓 𝐆𝐎𝐀𝐓 𝐕3)**
+---
 
-## 📜 **License**
+💖 **Thank You For Choosing 𝗔𝗹𝘃𝗶 𝗕𝗼𝘁 𝗖𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆!**  
+🗓️ *Release Date:* `03/10/2025 at 12:00`  
+⭐ **Please don't forget to give a star after forking! It really helps!**
 
-**VIETNAMESE**
+---
 
-- ***Nếu bạn vi phạm bất kỳ quy tắc nào, bạn sẽ bị cấm sử dụng dự án của tôi***
-- Không bán mã nguồn của tôi
-- Không tự xưng là chủ sở hữu của mã nguồn của tôi
-- Không kiếm tiền từ mã nguồn của tôi (chẳng hạn như: mua bán lệnh, mua bán/cho thuê bot, kêu gọi quyên góp, v.v.)
-- Không xóa/sửa đổi credit (tên tác giả) trong mã nguồn của tôi
+<p align="center">
+  <img src="https://img.icons8.com/emoji/48/000000/star-emoji.png" alt="Star" />
+</p>
 
-**ENGLISH**
+<p align="center">
+  <a href="https://github.com/alvi-boss"><img src="https://img.icons8.com/fluency/48/000000/github.png" alt="GitHub"></a>
+  <a href="https://wa.me/+966505748978"><img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp"></a>
+  <a href="https://facebook.com/100082607436864"><img src="https://img.icons8.com/fluency/48/000000/facebook.png" alt="Facebook"></a>
+  <a href="https://t.me/AKPremiumZone"><img src="https://img.icons8.com/color/48/000000/telegram-app.png" alt="Telegram"></a>
+  <a href="https://youtube.com/@SAUniqueBro"><img src="https://img.icons8.com/color/48/000000/youtube-play.png" alt="YouTube"></a>
+</p>
 
-- ***If you violate any rules, you will be banned from using my project***
-- Don't sell my source code
-- Don't claim my source code as your own
-- Do not monetize my source code (such as: buy and sell commands, buy and sell bots, call for donations, etc.)
-- Don't remove/edit my credits (author name) in my source code
-
+**I hope you enjoy my fork! Thank you for supporting the cyber chat bot community!**

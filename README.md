@@ -13,7 +13,7 @@ Assalamualaikum Everyone!
 
 <p align="center" style="animation: glow 2s infinite alternate; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
   <span style="font-size: 24px; font-weight: bold;"<p align="center">
-  <a href="#">`𝐒𝐇𝐈𝐅𝐀𝐓_𝐆𝐎𝐀𝐓_𝐁𝐎𝐓_𝐕3`"</span><br>
+  <a href="#">`_𝐆𝐎𝐀𝐓+𝐁𝐎𝐓+𝐕3+𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐃+𝐁𝐘+𝐒𝐇𝐈𝐅𝐀𝐓`"</span><br>
   <p align="center">
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=cyan&center=true&vCenter=true&multiline=false&lines=`𝐒__𝐇__𝐈__𝐅__𝐀__𝐓`" alt="">
 </p>

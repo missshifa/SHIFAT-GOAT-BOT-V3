@@ -15,7 +15,7 @@ Assalamualaikum Everyone!
   <span style="font-size: 24px; font-weight: bold;"<p align="center">
   <a href="#">`𝐒𝐇𝐈𝐅𝐀𝐓_𝐆𝐎𝐀𝐓_𝐁𝐎𝐓_𝐕3`"</span><br>
   <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=cyan&center=true&vCenter=true&multiline=false&lines=`𝐒𝐇𝐈𝐅𝐀𝐓_𝐆𝐎𝐀𝐓_𝐁𝐎𝐓_𝐕3`" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=cyan&center=true&vCenter=true&multiline=false&lines=`𝐒__𝐇__𝐈__𝐅__𝐀__𝐓`" alt="">
 </p>
 
 -------

@@ -3,62 +3,68 @@ const fs = require('fs');
 const path = require('path');
 
 module.exports = {
-config: {
-  name: "owner",
-  aurthor:"Tokodori",// Convert By Goatbot Tokodori 
-   role: 0,
-  shortDescription: " ",
-  longDescription: "",
-  category: "admin",
-  guide: "{pn}"
-},
+  config: {
+    name: "owner",
+    author: "SHIFAT", // Converted By GoatBot V3
+    role: 0,
+    shortDescription: "Show Owner/Admin Info",
+    longDescription: "Displays the owner/admin information with attached video.",
+    category: "admin",
+    guide: "{pn}"
+  },
 
   onStart: async function ({ api, event }) {
-  try {
-    const ownerInfo = {
-      name: 'EASIR IQBAL MAHI',
-      gender: 'Male',
-      age: '16+',
-      HOBBY: 'WATCHING ANIME AND BUILDING BOTS',
-      facebookLink: 'https://www.facebook.com/100072881080249',
-      nick: 'YHWACH/LORD AIZEN'
-    };
+    try {
+      const ownerInfo = {
+        name: '',
+        gender: '',
+        age: '',
+        hobby: '',
+        facebook: '',
+        nick: ''
+      };
 
-    const bold = 'https://i.ibb.co/GpkZrWV/images-18.jpg'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=1FX279zNSCoKEtfzvYzX3DDnotbVoL24e put your video id
+      // --- ImgUr video link ---
+      const videoUrl = 'https://i.imgur.com/lmk4jTK.mp4'; // এখানে তোর ইমগুর ভিডিও লিঙ্ক বসা
+      
+      // --- Temp folder ---
+      const tmpFolderPath = path.join(__dirname, 'tmp');
+      if (!fs.existsSync(tmpFolderPath)) {
+        fs.mkdirSync(tmpFolderPath);
+      }
 
-    const tmpFolderPath = path.join(__dirname, 'tmp');
+      // --- Download video from imgur ---
+      const videoResponse = await axios.get(videoUrl, { responseType: 'arraybuffer' });
+      const videoPath = path.join(tmpFolderPath, 'owner_video.mp4');
+      fs.writeFileSync(videoPath, Buffer.from(videoResponse.data, 'binary'));
 
-    if (!fs.existsSync(tmpFolderPath)) {
-      fs.mkdirSync(tmpFolderPath);
+      // --- Stylish Message ---
+      const response = `
+╭─────────────✦
+│ 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗜𝗢𝗡
+│
+│ ✧ 𝗡𝗮𝗺𝗲: 𝗦𝗛𝗜𝗙𝗔𝗧 
+│ ✧ 𝗡𝗶𝗰𝗸: 𝗦𝗜𝗙𝗨
+│ ✧ 𝗔𝗴𝗲: 18
+│ ✧ 𝗛𝗼𝗯𝗯𝘆: ٩(˘◡˘)۶
+│ ✧ 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸: @darkshifat
+│
+╰─────────────✦`;
+
+      // --- Send message + video ---
+      await api.sendMessage({
+        body: response,
+        attachment: fs.createReadStream(videoPath)
+      }, event.threadID, event.messageID);
+
+      // --- Reaction system ---
+      if (event.body && event.body.toLowerCase().includes('owner')) {
+        api.setMessageReaction('👑', event.messageID, (err) => {}, true);
+      }
+
+    } catch (error) {
+      console.error('Error in owner command:', error);
+      return api.sendMessage('❌ Something went wrong while fetching Owner info.', event.threadID);
     }
-
-    const videoResponse = await axios.get(bold, { responseType: 'arraybuffer' });
-    const videoPath = path.join(tmpFolderPath, 'owner_video.mp4');
-
-    fs.writeFileSync(videoPath, Buffer.from(videoResponse.data, 'binary'));
-
-    const response = `
-Owner Information:🧾
-Name: ${ownerInfo.name}
-Gender: ${ownerInfo.gender}
-Age: ${ownerInfo.age}
-Hobby: ${ownerInfo.HOBBY}
-Facebook: ${ownerInfo.facebookLink}
-Nick: ${ownerInfo.nick}
-`;
-
-
-    await api.sendMessage({
-      body: response,
-      attachment: fs.createReadStream(videoPath)
-    }, event.threadID, event.messageID);
-
-    if (event.body.toLowerCase().includes('ownerinfo')) {
-      api.setMessageReaction('🚀', event.messageID, (err) => {}, true);
-    }
-  } catch (error) {
-    console.error('Error in ownerinfo command:', error);
-    return api.sendMessage('An error occurred while processing the command.', event.threadID);
-  }
-},
+  },
 };

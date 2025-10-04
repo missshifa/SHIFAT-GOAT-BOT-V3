@@ -13,7 +13,8 @@ Assalamualaikum Everyone!
 
 <p align="center" style="animation: glow 2s infinite alternate; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
   <span style="font-size: 24px; font-weight: bold;">𝐒𝐇𝐈𝐅𝐀𝐓 𝐆𝐎𝐀𝐓 𝐁𝐎𝐓 𝐕3</span><br>
-  <span> Develop By MD SHIFAT</span><br>
+  <p align="center">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=cyan&center=true&vCenter=true&multiline=false&lines=`𝐒𝐇𝐈𝐅𝐀𝐓 𝐆𝐎𝐀𝐓 𝐁𝐎𝐓 𝐕3`" alt="">
 </p>
 
 -------
